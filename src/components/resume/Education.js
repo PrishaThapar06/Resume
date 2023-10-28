@@ -31,8 +31,8 @@ const Education = () => {
           <ResumeCard
             title="BTech in Computer Science"
             subTitle="JSS ACADEMY OF TECHNICAL EDUCATION"
-            result="8.5+ SGPA"
-            des="I have maintained a 8.5+ SGPA in all my semesters till now."
+            result="8.77 SGPA"
+            des="I have maintained an average of 8.77 SGPA."
           />
         </div>
       </div>

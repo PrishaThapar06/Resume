@@ -15,7 +15,7 @@ const Footer = () => {
                 </a>
             </span>
             <span className="bannerIcon">
-                <a href="https://leetcode.com/Prisha06/" target="_blank">
+                <a href="https://leetcode.com/t_prisha06/" target="_blank">
                 <SiLeetcode />
                 </a>
             </span>
