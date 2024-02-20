@@ -12,11 +12,11 @@ const ProjectCard = ({title , des , src , locationGithub , locationProject}) => 
                 <div className="flex items-center justify-between">
                   <h3 className="text-base uppercase text-designColor font-normal">{title}</h3>
                   <div className="flex gap-2">
-                    <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-cursor-pointer">
+                    {/* <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-cursor-pointer">
                         <a href={locationGithub} target="_blank">
                         <BsGithub />
                         </a>
-                    </span>
+                    </span> */}
                     <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-cursor-pointer">
                         <a href={locationProject} target="_blank">
                         <FaGlobe />

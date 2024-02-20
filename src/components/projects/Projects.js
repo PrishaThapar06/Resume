@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/Title';
-import {projectOne , projectTwo , projectThree} from '../../assets/index';
+import {projectOne , projectTwo , projectThree , projectClg , projectSnake} from '../../assets/index';
 import ProjectCard from './ProjectCard';
  
 const Projects = () => {
@@ -14,22 +14,36 @@ const Projects = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
                 <ProjectCard 
+                    title='COLLEGE WEBSITE'
+                    des="Crafted a comprehensive college website utilizing ReactJS, tailored to serve a diverse student audience."
+                    src={projectClg}
+                    locationGithub="https://github.com/PrishaThapar06/Website"
+                    locationProject="https://www.findmyuni.co.in/"
+                />
+                <ProjectCard 
                     title='HOMESTAY COVER'
-                    des="I build a cover page for a HomeStay website using ReactJs , HTML , CSS and JavaScript. This has an interactive user interface."
+                    des="Build a cover page for a HomeStay website using ReactJs , HTML , CSS and JavaScript. This has an interactive user interface."
                     src={projectOne}
                     locationGithub="https://github.com/Prisha6Thapar/Analog-Clock"
                     locationProject="https://homestay-cover.netlify.app/"
                 />
                 <ProjectCard 
+                    title='SNAKE GAME'
+                    des="Designed and developed an engaging Snake game utilizing the React framework, incorporating dynamic visuals to enhance user interaction."
+                    src={projectSnake}
+                    locationGithub="https://github.com/Prisha6Thapar/Analog-Clock"
+                    locationProject="https://64af9edeb5272629983a574b--boisterous-chimera-f0d804.netlify.app/"
+                />
+                <ProjectCard 
                     title='ANALOG CLOCK'
-                    des="I created an Analog Clock using HTML , CSS and JavaScript. This is dynamic in nature , displaying the current time like any other analog."
+                    des="Created an Analog Clock using HTML , CSS and JavaScript. This is dynamic in nature , displaying the current time like any other analog."
                     src={projectTwo}
                     locationGithub="https://github.com/Prisha6Thapar/Analog-Clock"
                     locationProject="https://analog-clock-prishathapar.netlify.app/"
                 />
                 <ProjectCard 
                     title='DRUM KIT'
-                    des="I created a Drum Kit project using HTML , CSS and JavaScript. This is used to get a feeling of palying drums using similar sounds along with each instrument."
+                    des="Created a Drum Kit project using HTML , CSS and JavaScript. This is used to get a feeling of palying drums using similar sounds along with each instrument."
                     src={projectThree}
                     locationGithub="https://github.com/Prisha6Thapar/drum-kit"
                     locationProject="https://band-using-drum-kit.netlify.app/"

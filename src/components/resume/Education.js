@@ -12,7 +12,7 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2018 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2018 - 2024</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
@@ -20,19 +20,19 @@ const Education = () => {
             title="Secondary Education"
             subTitle="DELHI PUBLIC SCHOOL GHAZIABAD , MEERUT ROAD"
             result="97.84%"
-            des="I have completed my secondary education from DELHI PUBLIC SCHOOL GHAZIABAD , MEERUT ROAD. 2017-2018"
+            des="I have completed my secondary education in 2017-2018, in CBSE (Central Board of Secondary Education) board."
           />
           <ResumeCard
             title="Senior Secondary Education"
             subTitle="DELHI PUBLIC SCHOOL GHAZIABAD , MEERUT ROAD"
             result="95.80%"
-            des="I have completed my senior secondary education from DELHI PUBLIC SCHOOL GHAZIABAD , MEERUT ROAD. 2018-2020"
+            des="Secondary education completed in 2018-20, specializing in PCM (Physics, Chemistry, Mathematics) curriculum."
           />
           <ResumeCard
             title="BTech in Computer Science"
             subTitle="JSS ACADEMY OF TECHNICAL EDUCATION"
             result="8.77 SGPA"
-            des="I have maintained an average of 8.77 SGPA."
+            des="Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE) at JSS Academy of Technical Education, Noida, specializing in competitive programming, data structures, algorithms, and front-end development. Maintained aN overall SGPA OF 8.77"
           />
         </div>
       </div>

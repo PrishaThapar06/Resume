@@ -127,7 +127,7 @@ const Skills = () => {
                         </motion.span>
                     </div>
                     <div className="overflow-x-hidden">
-                        <p className="text-sm uppercase font-medium">CSS3</p>
+                        <p className="text-sm uppercase font-medium">Tailwind CSS</p>
                         <motion.span 
                         initial={{x:"-1000%", opacity:0}}
                         animate={{x:0, opacity:1}}

@@ -20,7 +20,7 @@ const Footer = () => {
                 </a>
             </span>
             <span className="bannerIcon">
-                <a href="https://github.com/Prisha6Thapar" target="_blank">
+                <a href="https://github.com/PrishaThapar06" target="_blank">
                 <FaGithub />
                 </a>
             </span>
