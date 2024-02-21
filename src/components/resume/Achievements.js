@@ -12,27 +12,30 @@ const Achievements = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2020-2023</p>
+          <p className="text-sm text-designColor tracking-[4px]">2020-2024</p>
           <h2 className="text-3xl md:text-4xl font-bold">Educational Achievements</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Cleared IIT Advanced"
-            subTitle="qualified JEE Advanced in my first attempt."
+            subTitle="Qualified JEE Advanced in my first attempt."
             result="2020"
-            des="Felt proud to be among the top students who could clear JEE Advance."
+            des="Scored an All India Rank 28372."
           />
           <ResumeCard
-            title="3star coder on CODECHEF"
-            subTitle="1625 is my highest rank on codechef."
+            title="KAVACH - Cyber Security Hackathon"
+            subTitle="Grandfinalist"
             result="2023"
-            des="I wish to eager to learn new concepts and solve real world problems."
+            des="Our team developed a cutting-edge app to combat cyber crime, empowering users to safeguard their digital lives with advanced security features and intuitive user interface using React Native"
           />
           <ResumeCard
-            title="ORIGO"
-            subTitle="literary society of JSS Academy of Technical Education , Noida"
-            result="2022-2023"
-            des="I have been a member of the Technical Department of literary society of JSS Academy of Technical Education Noida , ORIGO."
+            title="Code Conquests"
+            subTitle="My ratings on various coding platforms."
+            result="2020-2024"
+            des="Codeforces:@Pupil (1238 best).
+             Leetcode:Contest Rank(1853 best).
+              GeeksforGeeks:Institute Rank(53).
+               Codechef:3star (1625 best)"
           />
         </div>
       </div>

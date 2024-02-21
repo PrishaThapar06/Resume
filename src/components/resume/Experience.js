@@ -12,10 +12,22 @@ const Experience = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2022-2023</p>
+          <p className="text-sm text-designColor tracking-[4px]">2022-2024</p>
           <h2 className="text-3xl md:text-4xl font-bold">Project Work</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          <ResumeCard
+            title="KD Global Administrations Service Limited"
+            subTitle="Frontend Developer"
+            result="05/2023-06/2023"
+            des="Worked collaboratively with design and backend teams to seamlessly integrate features, ensuring optimal navigation. Executed responsive layouts, interactive components, and efficient data fetching to elevate user experience."
+          />
+          <ResumeCard
+            title="College Website"
+            subTitle="ReactJS & Tailwind CSS"
+            result="2023-2024"
+            des="Crafted a comprehensive college website utilizing ReactJS, tailored to serve a diverse student audience. This platform provides essential insights into scholarships, universities, and relevant information, streamlining academic paths and future aspirations."
+          />
           <ResumeCard
             title="Resume Website"
             subTitle="ReactJS & Tailwind CSS"
@@ -27,12 +39,6 @@ const Experience = () => {
             subTitle="ReactJS"
             result="2022"
             des="Created a cover for a HomeStay Website with an interactive user interface just like any other travel and tourism website."
-          />
-          <ResumeCard
-            title="Analog Clock"
-            subTitle="HTML , CSS and JavaScript"
-            result="2021"
-            des="Created an attractive analog clock which using Javascript dynamically displays the current time."
           />
         </div>
       </div>
