@@ -33,7 +33,7 @@ const Achievements = () => {
             subTitle="My ratings on various coding platforms."
             result="2020-2024"
             des="Codeforces:@Pupil (1238 best).
-             Leetcode:Contest Rank(1853 best).
+             Leetcode:Contest Rank(1915 best , Level:Knight).
               GeeksforGeeks:Institute Rank(53).
                Codechef:3star (1625 best)"
           />

@@ -1,5 +1,6 @@
 import logo from "./images/logo.png";
 import bannerImg from "./images/bannerImg.jpg";
+import prisha from "./images/prisha.png";
 import projectClg from "./images/projects/college.png";
 import projectSnake from "./images/projects/snake.png";
 import projectOne from "./images/projects/projectOne.jpg";
@@ -13,6 +14,7 @@ import contactImg from "./images/contact/contactImg.png";
 export {
   logo,
   bannerImg,
+  prisha,
   projectClg,
   projectSnake,
   projectOne,

@@ -31,8 +31,8 @@ const Education = () => {
           <ResumeCard
             title="BTech in Computer Science"
             subTitle="JSS ACADEMY OF TECHNICAL EDUCATION"
-            result="8.77 SGPA"
-            des="Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE) at JSS Academy of Technical Education, Noida, specializing in competitive programming, data structures, algorithms, and front-end development. Maintained aN overall SGPA OF 8.77"
+            result="8.83 SGPA"
+            des="Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE) at JSS Academy of Technical Education, Noida, specializing in competitive programming, data structures, algorithms, and front-end development. Maintained aN overall SGPA OF 8.83"
           />
         </div>
       </div>

@@ -103,18 +103,6 @@ const Skills = () => {
                         </motion.span>
                     </div>
                     <div className="overflow-x-hidden">
-                        <p className="text-sm uppercase font-medium">Redux</p>
-                        <motion.span 
-                        initial={{x:"-1000%", opacity:0}}
-                        animate={{x:0, opacity:1}}
-                        transition={{duration:0.5, delay:0.5}}
-                        className="w-[75%] h-2 bgOpacity inline-flex rounded-md mt-2">
-                            <span className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative">
-                                <span className="absolute -top-7 right-0">75%</span>
-                            </span>
-                        </motion.span>
-                    </div>
-                    <div className="overflow-x-hidden">
                         <p className="text-sm uppercase font-medium">HTML 5</p>
                         <motion.span 
                         initial={{x:"-1000%", opacity:0}}
@@ -151,7 +139,7 @@ const Skills = () => {
                         </motion.span>
                     </div>
                     <div className="overflow-x-hidden">
-                        <p className="text-sm uppercase font-medium">Bootstrap</p>
+                        <p className="text-sm uppercase font-medium">Github</p>
                         <motion.span 
                         initial={{x:"-1000%", opacity:0}}
                         animate={{x:0, opacity:1}}
@@ -159,6 +147,18 @@ const Skills = () => {
                         className="w-[90%] h-2 bgOpacity inline-flex rounded-md mt-2">
                             <span className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative">
                                 <span className="absolute -top-7 right-0">90%</span>
+                            </span>
+                        </motion.span>
+                    </div>
+                    <div className="overflow-x-hidden">
+                        <p className="text-sm uppercase font-medium">Database Management</p>
+                        <motion.span 
+                        initial={{x:"-1000%", opacity:0}}
+                        animate={{x:0, opacity:1}}
+                        transition={{duration:0.5, delay:0.5}}
+                        className="w-[85%] h-2 bgOpacity inline-flex rounded-md mt-2">
+                            <span className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative">
+                                <span className="absolute -top-7 right-0">85%</span>
                             </span>
                         </motion.span>
                     </div>

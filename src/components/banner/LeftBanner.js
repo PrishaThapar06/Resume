@@ -3,6 +3,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { FaGithub, FaLinkedinIn, FaReact ,FaHtml5 } from "react-icons/fa";
 import { SiTailwindcss, SiLeetcode , SiGeeksforgeeks , SiJavascript} from "react-icons/si";
 import { BsCodeSlash} from "react-icons/bs";
+import DownloadPDF1 from "../downloadbtn/resume";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -30,6 +31,7 @@ const LeftBanner = () => {
                     </h2>
                     <p className="text-base font-bodyFont leading-6 tracking-wide">
                     I am a final year student pursuing Btech, major in Computer Science and Engineering at JSS ACADEMY OF TECHNICAL EDUCATION NOIDA, who is passionate about solving real-world problems.I am a FrontEnd Web Developer and Competitive Programmer with excellent problem-solving skills.
+                    <DownloadPDF1 />
                     </p>
                 </div>
                 <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
